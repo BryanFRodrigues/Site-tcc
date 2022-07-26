@@ -1,0 +1,517 @@
+
+/***elementos sem classe*/
+html {
+    scroll-behavior: smooth;
+   
+}
+body{
+    margin: 0% auto;
+}
+
+header {
+    height: 40px;
+    background-color: #000000;  
+}
+
+/***SPAN*/
+.aspas{
+    color: #f08080;
+    font-size: 2rem;
+}
+
+.pao_titulo{
+    color: #fff;
+    width: 970px;
+    margin: -120px  -300px;
+    position: absolute;
+    background-color: #3677D9;
+}
+
+.shadow{
+    box-sizing: border-box;
+    box-shadow: inset 0 -16px 0 0 #574D99;
+}
+
+.sangueroxo{
+    font-family: sans-serif;
+    font-size: large;
+    box-shadow: inset 0 -7px 0 0 #574D99;
+}
+/**menu-fundo_cor*/
+.bg {
+    background-color: #FFFFFF;
+}
+
+/***imagem de seção*/
+.fundo {
+    width: 100%;
+    height: 480px;
+}
+
+.fundo-img{
+    background-image: url(fotos-site/fundo.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+    width: 100%;
+    
+}
+
+.Imagem_texto{
+    width: 100%;
+    text-align: justify;
+    max-width: 700px;
+    margin: 130px 150px;
+    position: absolute; 
+    font-size: larger;
+    color: #FFFFFF;
+    
+}
+
+.Imagem_texto p{ 
+    width: 500px;
+    margin: -20px 50px;
+    padding: 20px;
+    background-color: #3677D9;
+}
+
+
+
+ #cor{ 
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-decoration:underline;
+    margin: 0% 5px;
+}
+
+#cor:hover{
+
+    opacity: 75%;
+
+}
+
+.socias_section{
+    margin:  340px 650px;
+    position: absolute;
+    display: flex; 
+}
+
+.socias_section I{
+    margin: 10px;
+}
+
+/**logos-menu*/
+.ios {
+    display: block;
+    padding: 0% 5px;
+    width: 150px;
+    height: 100px;
+    margin-left: 15%;
+}
+
+.dell {
+    display: block;
+    padding: 0% 5px;
+    width: 250px;
+    height: 30px;
+}
+
+.pao {
+    display: block;
+    padding: 0%;
+    width: 140px;
+    height: 70px;
+}
+
+/**box-menu*/
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.menu-bg {
+    align-items: center;
+    max-width: 1000px;
+    max-height: 400px;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 0% auto;
+}
+
+.navegacao li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.lista {
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul {
+    display: contents;
+}
+
+a {
+    text-decoration: none;
+    color: #574D99;
+    font-family: 'Mitr', sans-serif;
+    font-size: 18px;
+}
+
+a:hover{
+    opacity: 50%;
+}
+
+
+.fundo {
+    width: 100%;
+    height: 480px;
+}
+
+/**Body*/
+
+hr {
+    width: 22%;
+    border-width: 0;
+    height: 2px;
+    background: #4682B4;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 160%;
+    color: #ff8e31f1;
+}
+
+
+
+/**intro*/
+
+.parteum {
+    line-height: 2rem;
+    font-family: 'Mitr', sans-serif;
+    font-size: 111%;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: bolder;
+    color: #474747;
+}
+
+.intro {
+    width: 200px;
+    height: 177px;
+    border-radius: 100%;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: solid 2px #4682B4;
+}
+
+/**cursos*/
+
+.sub{
+    margin: 0% auto;
+    width: 200px;
+    border-left: solid 8px #20a6ff;
+    color: #ff8e31f1;
+}
+
+.cursos img{
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+    border-radius: 100%;
+}
+
+.cursos_box{
+    display: flex;
+    width: 1100px;
+    margin: 0% auto;
+}
+
+h3 {
+    font-family: 'Mitr', sans-serif;
+    font-size: 111%;
+    text-align: center;
+}
+
+.expcurso {
+    font-family: 'Mitr', sans-serif;
+    font-size: 111%;
+    text-align:justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bolder;
+    color: #474747;
+}
+
+
+/**rodapé*/
+
+.footer-content h4 {
+    font-family: 'Mitr', sans-serif;
+    font-size: 1.8rem;
+}
+
+.footer-content h5{
+    font-family: 'Mitr', sans-serif;
+    font-size: 1.3rem;
+}
+
+.rodape {
+    width: 55%;
+    padding-top: 0%;
+    background: #131212;
+}
+
+.ultima {
+    font-family: 'Mitr', sans-serif;
+    font-size: 90%;
+    margin-left: 8%;
+    margin-right: 50%;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.sociais {
+    display: inline-block;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seguir {
+    width: 125px;
+    padding: 0;
+}
+
+footer{
+    margin-top: 80px;
+    padding-top: 40px; 
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: 'Mitr', sans-serif;
+    color: #fff;
+}
+
+
+.footer-content{
+    margin: 0 auto;
+    max-width: 970px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.footer-content h3{
+
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 1000px;
+    margin: 10 auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.redes-sociais{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  
+}
+
+.redes-sociais a{
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.redes-sociais a i{
+    transition: color .4s ease;
+    font-size: 1.5rem;
+
+}
+
+.redes-sociais a:hover i{
+    transform: scale(180%);
+    color: #20a6ff;
+}
+
+.footer-bottom{
+    background-color: #000;
+    width: 100%;
+    padding: 20px 0 ;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+/*nuvens decoração*/
+.nuvem img {
+
+    width: 140px;
+    height: 100px;
+    margin-left: 90px
+}
+.nuvem2 img {
+    width: 140px;
+    height: 100px;
+    margin-left: 84%;
+    
+}
+/*texto sobre a parceria do pão*/
+.fundacao{
+    line-height: 2rem;
+    font-family: 'Mitr', sans-serif;
+    font-size: 111%;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: bolder;
+    color: #474747;
+}
+/*texto da dell*/
+.parteDel{
+    line-height: 2rem;
+    font-family: 'Mitr', sans-serif;
+    font-size: 111%;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: bolder;
+    color: #3f6df9; 
+}
+
+.Comentarios_bg{
+    line-height: 1.3;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0 0 0 2px #f08080;
+    border-radius: 10px;
+}
+
+.foto_nome{
+    align-items: center;
+    display: flex;
+}
+
+.foto_nome img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.Box_ajust{
+    padding: 30px;
+}
+
+.Nomes{
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 80px;
+}
+
+.Nomes:first-line{
+    color: #f08080;
+}
+
+.Area{
+    color:#474747;
+}
+
+
+.caixa{
+    justify-items: center;
+    flex-wrap: wrap;
+    display: flex;
+  
+}
+
+.Comentarios_content{
+    
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.aspas{
+    height: 1.6rem;
+    color: lightcoral;
+}
+
+.sub2{
+    padding: 40px;
+    color: #050505f1;
+}
+
+
+
+.hr1{
+    width: 5px;
+    height: 25px;
+    position:absolute;
+    margin: 2px 640px;
+   
+}
+
+.Dell_historia{
+    padding: 80px;
+}
+
+
+.Dell_fundo{
+    padding: 70px;
+
+    background-image: url(fotos-site/RR1-_Dell_Campus.jpg);
+    height: 350px;
+    background-position: 30%;
+    background-size: cover;   
+}
+
+.Dell_texto{
+    padding: 20px;
+    line-height: 1.7rem;
+    opacity: 80%;
+    font-size:larger;
+    background-color:#3677D9;
+    color: #FFFFFF;
+    text-align: justify;
+    width: 700px;
+    position: absolute;
+    margin: 60px 60px;
+}
+
+.Dell_socias{
+   position: absolute;
+   margin: 350px 600px;
+}
+
+.Dell_socias i{
+    margin: 5px;
+}
+
